@@ -1,0 +1,69 @@
+<resources>
+    <!--
+    – & thay bằng & amp;
+    – < thay bằng & lt;
+    – > thay bằng & gt;
+    – … thay bằng & #8230;-->
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="button_name">abc</string>
+    <string name="app_name">ShopBee</string>
+    <string name="empty_note">Bạn <i> chưa có</i>  ghi chú nào <b>cho mình</b>, hãy tạo mới 1 ghi chú từ <b><u>hôm nay</u></b>  </string>
+    <string name="Hello">Xin chào đây là 1 câu mẫu để demo 1 cái gì đó</string>
+    <string name="sym">câu này \dùng để \đánh đâu kí tự đặc \biết sử dụng \' \\ \hoặc \" để có thể \hiện thị ra các kí tự này</string>
+    <string name="xoa">Xóa</string>
+    <string name="eat">Ăn Uống</string>
+    <string name="thamquan">Tham Quan</string>
+    <string name="Shopping">Mua Sắm</string>
+    <string name="common_action_close">Đóng</string>
+    <string name="common_action_save">Lưu</string>
+
+    <!-- Các Menu -->
+    <string name="menu_item_about_app">Về Ứng Dụng</string>
+    <string name="menu_item_help">Giúp Đỡ</string>
+    <string name="menu_item_search">Tìm Kiếm</string>
+    <string name="menu_item_version_app">Phiên bản %s</string>
+
+    <!-- Màn hình chính -->
+    <string name="mainscreen_add_catergory">Thêm Chủ Đề</string>
+    <string name="mainscreen_add_note">Thêm Địa Điểm</string>
+    <string name="mainscreen_edit_note">Sửa Địa Điểm</string>
+    <string name="mainscreen_empty_note">Bạn chưa có ghi chú nào cho mình, hãy tạo mới ghi chú từ hôm nay</string>
+
+    <!-- Màn hình Note detail -->
+    <string name="note_detail_share">Chia sẻ</string>
+    <string name="note_detail_delete">Xóa</string>
+    <string name="note_detail_category">Chủ Đề</string>
+    <string name="note_detail_note_detail">Chi Tiết Về Địa Điểm</string>
+    <string name="note_detail_other_information">Thông Tin Khác</string>
+    <string name="note_detail_map_location">Vị Trí Bản Đồ</string>
+    <string name="note_detail_note_name_hint">Tên Địa Điểm</string>
+    <string name="note_detail_note_detail_hint">Mô Tả Về Địa Điểm</string>
+    <string name="note_detail_add_note_hint">Ghi Chú - Có Thể Thêm Vào Sau</string>
+    <string name="note_detail_address_hint">Địa Chỉ</string>
+    <string name="title_activity_main_action">main_action</string>
+
+    <!--   login -->
+    <string name="login">Đăng Nhập</string>
+    <string name="regiter"><u>Đăng ký</u> </string>
+    <string name="account">Tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="fogot"><b><u>Quên mật khẩu</u></b></string>
+    <string name="Logout">Đăng Xuất</string>
+    <!--    bar-->
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    menu-->
+    <string name="home">"Trang chủ</string>
+    <string name="favorite">"Sở thích</string>
+    <string name="history">"Lịch sử</string>
+    <string name="Search">Tìm kiếm</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="add">Thêm</string>
+    <string name="setting">Cài đặt</string>
+    <string name="change_profile">change profile</string>
+</resources>

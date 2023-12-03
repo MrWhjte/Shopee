@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:alpha="1"
+    android:padding="@dimen/d_20dp"
+    tools:context=".Signin">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/LightGreen"
+        android:textStyle="bold"
+        android:textSize="@dimen/d_50sp" />
+
+
+    <EditText
+        android:id="@+id/input_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="@string/account"
+        android:textColor="@color/white"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLength="100" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:paddingTop="@dimen/d_20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BtnSign_in"
+        android:layout_width="@dimen/d_240dp"
+        android:layout_height="@dimen/d_50dp"
+        android:layout_marginTop="@dimen/d_20dp"
+        android:text="@string/login"
+        android:textColor="@color/Black"
+        android:background="@drawable/button_corners"
+        android:textSize="30sp"
+        android:radius="80dp"
+        />
+
+    <TextView
+        android:id="@+id/qmk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fogot"
+        android:textColor="@color/black"
+        android:textSize="@dimen/d_20dp" />
+
+    <LinearLayout
+        android:id="@+id/siginup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/d_10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn không có tài khoản"
+            android:textColor="@color/white"
+            android:textSize="@dimen/d_19sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/d_10dp"
+            android:text="@string/regiter"
+            android:textStyle="bold"
+            android:textColor="@color/Red"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
